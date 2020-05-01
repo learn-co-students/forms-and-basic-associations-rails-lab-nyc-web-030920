@@ -11,13 +11,13 @@ In this lab, we're going to make a song library that helps record thoughts
 about various `Song`s. Our data model looks like this:
 
 - `Artist`
-  - has a `name` attribute (`String`)
-  - has many `Song`s
+  √ has a `name` attribute (`String`)
+  √ has many `Song`s
 - `Song`
-  - has a `title` attribute (`String`)
-  - belongs to an `Artist`
-  - belongs to a `Genre`
-  - has many `Note`s
+  -√ has a `title` attribute (`String`)
+  -√ belongs to an `Artist`
+  -√ belongs to a `Genre`
+  -√ has many `Note`s
 - `Genre`
   - has a `name` attribute (`String`)
   - has many `songs`
